@@ -1,0 +1,41 @@
+{
+    "name": "jsondiff",
+    "preferGlobal": false,
+    "private": true,
+    "version": "0.0.1",
+    "author": "Andrei Neculau <andrei.neculau@gmail.com>",
+    "description": "Port of Martin Algesten's jsondiff from Java to JavaScript.",
+    "contributors": [
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/andreineculau/jsondiff.js.git"
+    },
+    "keywords": [
+        "json",
+        "diff"
+    ],
+    "license": "MIT",
+
+    "engines": {
+        "node": "~0.8.5"
+    },
+    "dependencies": {
+        "coffee-script": "~1.3.1",
+        "json3": "~3.2.2",
+        "jsonpointer": "git://github.com/andreineculau/node-jsonpointer",
+        "jsonlint": "~1.3.1",
+        "node.extend": "~1.0.0"
+    },
+    "devDependencies": {
+        "nodeunit": "~0.7.4"
+    },
+    "bundleDependencies": [
+    ],
+
+    "scripts": {
+    },
+    "bin": {
+    },
+    "main": "src/jsondiff.coffee"
+}
