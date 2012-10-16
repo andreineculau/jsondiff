@@ -1,7 +1,7 @@
-jsonLint = require '../node_modules/jsonlint'
-jsonPointer = require '../node_modules/jsonpointer'
-JSON = require '../node_modules/json3'
-extend = require '../node_modules/node.extend'
+jsonLint = require 'jsonlint'
+jsonPointer = require 'jsonpointer'
+JSON = require 'json3'
+extend = require 'node.extend'
 
 type = (obj) ->
   if obj is null or obj is undefined
