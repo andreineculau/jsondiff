@@ -20,8 +20,8 @@ exports.apply = (instance, diff) ->
     jsonPointer.get instance, pointer
   set = (pointer, value) ->
     jsonPointer.set instance, pointer, value
-  del = (pointer) ->
-    jsonPointer.del instance, pointer
+  remove = (pointer) ->
+    jsonPointer.remove instance, pointer
 
 
   if type(instance) is 'array'
@@ -63,7 +63,7 @@ exports.apply = (instance, diff) ->
 
     switch mode
       when 'remove'
-        del path
+        remove path
       when 'merge'
         if arrayInfo and arrayAdd # array insert
           currentArray.splice arrayInfo, 0, value
