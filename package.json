@@ -31,5 +31,5 @@
   "bundleDependencies": [],
   "scripts": {},
   "bin": {},
-  "main": "src/jsondiff.coffee"
+  "main": "index.coffee"
 }
